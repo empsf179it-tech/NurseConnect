@@ -1534,7 +1534,22 @@ button {
   }
   
   .about-images {
-    height: 400px;
+    height: auto;
+    padding-bottom: var(--sp-4);
+  }
+  
+  .img-main {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .img-secondary {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
   }
   
   .explorer-container {
